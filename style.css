@@ -1,0 +1,74 @@
+:root {
+    --black: #000000
+}
+
+body {
+    display: block;
+    background-color: rgba(136, 27, 90, 0.472);
+}
+
+section{
+    margin-left: 150px;
+    margin-right: 10px;
+    width: 50%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+h1 {
+    width: auto;
+    text-transform: uppercase;
+    font-size: 50px;
+    color: var(--black);
+}
+
+.contenedor {
+    height: 370px;
+    width: 300px;
+    padding-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
+    float: left;
+}
+.caja{
+    flex-wrap: wrap;
+    height: 80px;
+    width: 80px;
+    color: var(--black);
+    font-size: 70px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+button {
+    padding: 20px 20px;
+    margin : 10px;
+    border-radius: 10px;
+    background-color: var(--black);
+    color: white;
+    border-color: var(--black);
+    font-size: 18px;
+    transition: 200ms transform;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+
+.instrucciones{
+    color: var(--black);
+    float: right;
+    width: 25%;
+    height: 300px;
+    margin-top: 200px;
+    margin-right: 70px;
+    text-align: justify;
+}
