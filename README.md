@@ -5,9 +5,7 @@ Este proyecto de prueba está implementado en el famoso Juego Triqui, fue desarr
 
 ## Instalación 🔧
 
-Puedes correrlo online desde este link: [Sitio](https://veronica.tiiny.site/) 
-
-O descargar los archivos y abrir el archivo HTML en el navegador. 
+Descargar los archivos y abrir el archivo HTML en el navegador. 
 
 ## Autor ✒️
 
